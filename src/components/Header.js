@@ -3,8 +3,8 @@ import {NavLink} from 'react-router-dom';
 function Header() {
 
   return(
-    <div>
-      <nav className="navbar">
+    <div className="links">
+      <nav>
       <NavLink to={"/"}>StateMyRep</NavLink>
       <NavLink to={"/RepSearch"}>RepSearch</NavLink>
       <NavLink to={"/OrgSearch"}>OrgSearch</NavLink>

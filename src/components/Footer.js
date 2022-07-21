@@ -1,8 +1,8 @@
 function Footer() {
 
   return(
-    <div>
-    <h3>&copy; 2022-16-rtt</h3>
+    <div id="footer">
+      <h3>&copy; 2022-16-rtt</h3>
     </div>
   )
 }

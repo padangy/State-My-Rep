@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "images-scraper": "^6.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.3.0",

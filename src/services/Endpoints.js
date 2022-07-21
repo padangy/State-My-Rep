@@ -15,7 +15,7 @@ export async function searchByState(letters) {
   }
 }
 
-// N00044521
+// cid: N00044521 orgid: D000000128
 export async function searchByRep(cid) {
   try {
     const response = await axios.get(`https://www.opensecrets.org/api/?method=candContrib&cid=${cid}&cycle=2022&apikey=${process.env.REACT_APP_OS_API_KEY}&output=json`);

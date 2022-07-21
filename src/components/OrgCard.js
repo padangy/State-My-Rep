@@ -3,10 +3,11 @@ function OrgCard(props) {
   // console.log(orgname)
 
   return(
-    <div key={orgname}>   
-      <h2>{orgname ? orgname : 'N/A'}</h2>
-      <h3>orgID: {orgid ? orgid : 'N/A'}</h3>
-
+    <div className="home">
+      <div className="item-orgcard" key={orgname}>   
+        <h2>{orgname ? orgname : 'N/A'}</h2>
+        <h3>orgID: {orgid ? orgid : 'N/A'}</h3>
+      </div>
     </div>
   )
 }

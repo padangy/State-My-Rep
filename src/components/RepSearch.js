@@ -16,7 +16,6 @@ function RepSearch() {
         // console.log(objOfOrgs)
         if(objOfOrgs !== undefined) {
             let name = objOfOrgs.data.response.contributors['@attributes'].cand_name
-            let year = objOfOrgs.data.response.contributors['@attributes'].cycle
             let message = objOfOrgs.data.response.contributors['@attributes'].notice
             let url = objOfOrgs.data.response.contributors['@attributes'].source
             // console.log(url)

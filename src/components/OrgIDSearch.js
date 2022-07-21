@@ -25,7 +25,7 @@ function OrgIDSearch() {
   }
   return(
     <div>
-      <h1>Organizational fundraising efforts summarized by latest cycle year</h1> 
+      <h1>Organizational Fundraising Efforts Summarized by Latest Cycle Year</h1> 
 
       <input id='orgid-search' type='text' placeholder="orgID of Organization"/>
       <button onClick={() => handleSearch()}>Submit</button>
