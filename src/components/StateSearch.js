@@ -23,7 +23,6 @@ function StateSearch() {
               else {
                 const arrOfAttrib = arrOfReps['@attributes'];
                 repData.push(arrOfAttrib)
-                
               }
               setStateReps(repData)
               setErrMessage('')    
