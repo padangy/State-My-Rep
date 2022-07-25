@@ -1,10 +1,13 @@
 import {useState} from 'react';
+import {useParams} from 'react-router-dom';
 import {searchOrgID} from '../services/Endpoints';
 import OrgSummCard from './OrgSummCard';
 
 function OrgIDSearch() {
   const [organizations, setOrganizations] = useState([]);
   const [errMessage, setErrMessage] = useState("");
+
+  const {orgid} = useParams();
 
   async function handleSearch() {
     let input = document.querySelector('#orgid-search')
@@ -23,11 +26,12 @@ function OrgIDSearch() {
       setOrganizations([])
     }
   }
+
   return(
     <div>
       <h1>Organizational Fundraising Efforts Summarized by Latest Cycle Year</h1> 
 
-      <input id='orgid-search' type='text' placeholder="orgID of Organization"/>
+    <input id='orgid-search' type='text' value={orgid ? `${orgid}` : ''} placeholder="orgID of Organization"/>
       <button onClick={() => handleSearch()}>Submit</button>
       <p>{errMessage}</p>
 

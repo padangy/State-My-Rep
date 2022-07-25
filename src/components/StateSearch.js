@@ -1,10 +1,13 @@
 import {useState} from 'react';
+// import {useNavigate} from 'react-router-dom';
 import {searchByState} from '../services/Endpoints';
 import RepCard from './RepCard';
 
 function StateSearch() {
     const [stateReps, setStateReps] = useState([]);
     const [errMessage, setErrMessage] = useState("");
+
+    // const navigate = useNavigate();
 
     async function handleSearch() {
         let input = document.querySelector('#state-search')
@@ -55,6 +58,11 @@ function StateSearch() {
             <input id='state-search' type='text' placeholder="State Abbreviation or cID"/>
             <button onClick={() => handleSearch()}>Submit</button>
             <p>{errMessage}</p>
+
+            {/* <button onClick={
+          () => navigate(`/RepSearch/${cid}`)
+          }
+          >Representative's Organizational Supporters</button> */}
 
             {stateReps.map((rep) => {
                 return <RepCard  props={rep}/>

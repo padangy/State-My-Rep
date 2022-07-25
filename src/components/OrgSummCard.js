@@ -1,6 +1,6 @@
 function OrgSummCard(props) {
   const {orgname, orgid, source, cycle, lobbying, total, pacs, indivs, soft, dems, repubs, gave_to_pac, gave_to_party, gave_to_cand, gave_to_527, tot527, outside, mems_invested} = props.props;
-  console.log(source)
+  // console.log(source)
 
   return(
     <div className="home">
