@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Welcome to StateMyRep!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Minimum Viable Product (MVP):
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+<img align="left" width="200px" src="https://user-images.githubusercontent.com/78067505/180959156-b639849c-252b-4e03-b021-08b900cf5bb1.png" />
 
-### `npm start`
+StateMyRep returns Congressional legislators by state and showcases helpful information regarding the legislators and their top monetary contributors. Utilizes the OpenSecrets API, their concept is "follow the money". StateMyRep intends to help U.S. voters understand who backs who and promotes more informed votes regarding organizations and their money moves. This helps the average American by shedding light on corporate motives in political backing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
+<br>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Wireframing
 
-### `npm test`
+Figma: https://www.figma.com/file/tu97n67c4nkwcDj3GhIIy7/StateMyRep-Figma-Wireframe?node-id=0%3A1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![desktopview](https://user-images.githubusercontent.com/78067505/180966243-80691d95-213a-48a8-872d-5c3c2d8c0b6f.PNG)
 
-### `npm run build`
+## Component Hierarchy
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![componenthierarchy](https://user-images.githubusercontent.com/78067505/180966886-bcf93952-1ebe-45df-8d0a-c703793992cd.PNG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API
 
-### `npm run eject`
+OpenSecrets API: https://www.opensecrets.org/open-data/api
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="200px" src="https://cdn1.opensecrets.org/rails-assets/production/assets/logo2019-2-69ab7d41ab8dc6195363228b2092d7e6897a7997d79b549e0f6d2f5767ce947c.png" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Post MVP
+Features to add in the future:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Login page
+<br>
+-References and links to ways to get involved in political activities
