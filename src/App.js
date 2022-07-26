@@ -16,7 +16,8 @@ function App() {
         <Route path="/" element={<StateSearch />}/>
         <Route path="/RepSearch" element={<RepSearch />}/>
         <Route path="/OrgSearch" element={<OrgSearch />}/>
-        <Route path="/OrgIDSearch/:orgid" element={<OrgIDSearch />}/>
+        <Route path="/OrgIDSearch/" element={<OrgIDSearch />}/>
+        <Route path="/OrgIDSearch/:org_id" element={<OrgIDSearch />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
       <Footer />
