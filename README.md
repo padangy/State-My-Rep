@@ -14,7 +14,7 @@ StateMyRep returns Congressional legislators by state and showcases helpful info
 
 ## Wireframing
 
-Figma: https://www.figma.com/file/tu97n67c4nkwcDj3GhIIy7/StateMyRep-Figma-Wireframe?node-id=0%3A1
+Figma: https://www.figma.com/file/tu97n67c4nkwcDj3GhIIy7/StateMyRep-Figma-Wireframe
 
 ![desktopview](https://user-images.githubusercontent.com/78067505/180966243-80691d95-213a-48a8-872d-5c3c2d8c0b6f.PNG)
 
