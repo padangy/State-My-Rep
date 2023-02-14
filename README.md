@@ -27,6 +27,8 @@ Figma: https://www.figma.com/file/tu97n67c4nkwcDj3GhIIy7/StateMyRep-Figma-Wirefr
 
 OpenSecrets API: https://www.opensecrets.org/open-data/api
 
+[<img alt="alt_text" width="200px" src="https://cdn1.opensecrets.org/rails-assets/production/assets/logo2019-2-69ab7d41ab8dc6195363228b2092d7e6897a7997d79b549e0f6d2f5767ce947c.png" />](https://www.google.com/)
+
 <img width="200px" src="https://cdn1.opensecrets.org/rails-assets/production/assets/logo2019-2-69ab7d41ab8dc6195363228b2092d7e6897a7997d79b549e0f6d2f5767ce947c.png" />
 
 ## Post MVP
