@@ -27,6 +27,8 @@ Figma: https://www.figma.com/file/tu97n67c4nkwcDj3GhIIy7/StateMyRep-Figma-Wirefr
 
 OpenSecrets API: https://www.opensecrets.org/open-data/api
 
+<img align="left" width="200px" src="https://user-images.githubusercontent.com/78067505/218646067-2096e7b7-ffb9-4e10-b1c3-fcc7a9963338.png" />
+
 ![image](https://user-images.githubusercontent.com/78067505/218646067-2096e7b7-ffb9-4e10-b1c3-fcc7a9963338.png)
 
 ## Post MVP
