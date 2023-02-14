@@ -29,6 +29,7 @@ OpenSecrets API: https://www.opensecrets.org/open-data/api
 
 <img align="left" width="200px" src="https://user-images.githubusercontent.com/78067505/218646067-2096e7b7-ffb9-4e10-b1c3-fcc7a9963338.png" />
 
+
 ## Post MVP
 Features to add in the future:
 
